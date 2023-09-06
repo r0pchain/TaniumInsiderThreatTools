@@ -1,0 +1,3 @@
+Unlike the deployment of BitBlocker that has two techniques, I have only written a removal for the "TPM Only" configuration of BitLocker. 
+
+If you have a corporate environment that was TPMandPIN (user had to enter an unlock password at boot) before BitBlocker deployment, then this technique would remove the boot protections you had in place. In that case, allowing the user to reset their PIN/Password or having your desktop support technicians re-image the device will remove BitBlocker. 

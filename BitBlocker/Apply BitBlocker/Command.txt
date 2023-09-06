@@ -1,0 +1,1 @@
+cmd.exe /d /c powershell.exe -ExecutionPolicy Bypass -NoProfile .\ITPBitlockerEnableProtector.ps1

@@ -1,0 +1,1 @@
+This is the technique you'll need to use if your environment uses TPMAndPIN (user prompted for a pass/pin on startup) versus the common corporate configuration of TPM background-unlock

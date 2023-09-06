@@ -1,0 +1,2 @@
+$result = (Get-BitLockerVolume).KeyProtector | ConvertTo-CSV -NoTypeInformation -Delimiter "|" | select -Skip 1 | % {$_ -replace '"',''}
+Write-Output $result
